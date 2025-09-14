@@ -1,0 +1,9 @@
+client_secrets.json
+config/config.py
+data/
+*.csv
+*.png
+*.zip
+*.log
+__pycache__/
+*.pyc
