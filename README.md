@@ -15,7 +15,7 @@ A fully automated ETL pipeline for processing and analyzing Dubai traffic incide
 ---
 
 ## 📁 Folder Structure
-
+```
 SmartTrafficPipeline/ 
 ├── config/             # Email and path settings 
 ├── data/               # Raw and processed traffic data 
@@ -25,7 +25,7 @@ SmartTrafficPipeline/
 ├── README.md           # Project overview 
 ├── requirements.txt    # Python dependencies 
 └── .gitignore          # Files to exclude from Git
-
+```
 ---
 
 ## ▶️ How to Run
@@ -41,7 +41,6 @@ SmartTrafficPipeline/
 3. **Install dependencies**
    ```bash
    pip install -r requirements.txt
-   Run the pipeline
 
 4. **Run the Pipeline**
    ```bash
@@ -49,13 +48,13 @@ SmartTrafficPipeline/
 
 ## 📊 Sample Output
 
-summary_YYYYMMDD_HHMMSS.csv: Incident summary
+   summary_YYYYMMDD_HHMMSS.csv: Incident summary
 
-top_locations.png: Bar chart of top 5 locations
+   top_locations.png: Bar chart of top 5 locations
 
-traffic_clean.csv: Cleaned dataset
+   traffic_clean.csv: Cleaned dataset
 
-traffic_clean.zip: Archived version
+   traffic_clean.zip: Archived version
 
 - All files are uploaded to Google Drive under:
    ```bash
@@ -63,18 +62,20 @@ traffic_clean.zip: Archived version
 
 ## 📦 Dependencies
 
-PyDrive
+- PyDrive
 
-matplotlib
+- matplotlib
 
-requests
+- requests
 
-smtplib (built-in)
+- smtplib (built-in)
 
 ## 📜 License
-This project is licensed under the MIT License. See the LICENSE file for details.
+This project is licensed under the MIT License.  
+
+See the [LICENSE](LICENSE) file for more details.  
 
 ## 👤 Author
 Lingeswaran R
 
-Data Engineer
+Detail-oriented data engineer focused on building reproducible, automated analytics pipelines.
