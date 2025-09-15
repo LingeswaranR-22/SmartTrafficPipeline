@@ -6,7 +6,7 @@
 ![ETL](https://img.shields.io/badge/ETL-Pipeline-red?logo=apacheairflow)
 ![Automation](https://img.shields.io/badge/Automation-Success-brightgreen)
 
----
+SmartTrafficPipeline is a fully automated ETL workflow that transforms raw traffic incident data into structured insights, uploads results to Google Drive, and generates visual summaries—all in one seamless run.
 
 ## 📊 Project Overview
 The **Smart Traffic Data Pipeline** is an **end-to-end automated ETL workflow** that processes real-world traffic incident data.  
@@ -21,6 +21,7 @@ It:
 --- 
 
 ## 📂 Project Structure
+```
 SmartTrafficPipeline/
 │
 ├── data/
@@ -46,7 +47,7 @@ SmartTrafficPipeline/
 ├── pipeline.py # Main entrypoint (runs full ETL pipeline)
 ├── requirements.txt # Python dependencies
 └── README.md # Project documentation
-
+```
 ---
 
 ## 📂 Pipeline Output
@@ -63,6 +64,7 @@ Top 10 incident locations:
 
 Incident distribution (Lat/Lon scatter):  
 ![Lat/Lon Scatter](data/summary/latlon_scatter.png)
+
 
 ---
 
@@ -83,12 +85,11 @@ Incident distribution (Lat/Lon scatter):
 
 2. **Create a virtual environment**
    ```bash
-  python -m venv .venv
-  .venv\Scripts\activate   # Windows
+   python -m venv .venv
+   .venv\Scripts\activate   # Windows
 
 3. **Install dependencies**
    ```bash
-<<<<<<< HEAD
    pip install -r requirements.txt
 
 4. **Run the full Pipeline(ETL + summary + upload + email)**
